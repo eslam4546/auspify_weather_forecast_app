@@ -12,7 +12,7 @@ The app fetches dynamic, real-time meteorological conditions and multi-day forec
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 * **Live Weather Dashboard**: Real-time temperature in ultra-light typography, weather condition description, Material Symbols/weather icon, high/low daily summary, and live status badge.
 * **Essential 2x3 Telemetry Grid**:
@@ -33,7 +33,7 @@ The app fetches dynamic, real-time meteorological conditions and multi-day forec
 
 ---
 
-## 🏗️ Architecture & Technology Stack
+##  Architecture & Technology Stack
 
 The project strictly follows **Clean Architecture** with a unidirectional data flow powered by **Cubit (`flutter_bloc`)**:
 
@@ -64,7 +64,7 @@ lib/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * Flutter SDK: `^3.13.5` or later
@@ -96,7 +96,7 @@ lib/
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The test suite covers Core utilities, JSON deserialization/serialization, and Cubit state management:
 
@@ -106,6 +106,10 @@ flutter test
 * **Core Tests**: WMO code mapping, weather descriptions, and day/night icons.
 * **Data Layer Tests**: Geocoding JSON parsing, Open-Meteo forecast JSON parsing, and cache roundtrip serialization.
 * **State Management Tests**: `ThemeCubit` and `WeatherCubit` state transitions using `bloc_test` and `mocktail`.
+---
+<img width="369" height="811" alt="image" src="https://github.com/user-attachments/assets/282181ab-faad-45a2-98e2-00be958ccdc5" />
+<img width="369" height="811" alt="image" src="https://github.com/user-attachments/assets/275572c1-5dae-430d-af84-b20d621e4217" />
+<img width="369" height="811" alt="image" src="https://github.com/user-attachments/assets/e0db1442-e735-4e31-8891-454651dbdc5a" />
 
 ---
 
